@@ -30,7 +30,7 @@ public class EnfermedadEstudianteRest {
 		service.registrar(enfermedadEstudiante);
 	}
 
-	@GetMapping("/listarPorIdEstudiante/{id}")
+	@GetMapping("/listarPorIdEstudiante/{idEstudiante}")
 	public List<EnfermedadEstudiante> listarPorIdEstudiante(@PathVariable int idEstudiante) {
 		return service.listarPorIdEstudiante(idEstudiante);
 	}
