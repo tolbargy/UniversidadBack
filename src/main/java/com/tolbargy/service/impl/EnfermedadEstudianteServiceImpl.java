@@ -40,4 +40,9 @@ public class EnfermedadEstudianteServiceImpl implements IEnfermedadEstudianteSer
 		repo.deleteById(id);
 	}
 
+	@Override
+	public List<EnfermedadEstudiante> listarPorIdEstudiante(int idEstudiante) {
+		return repo.listarPorIdEstudiante(idEstudiante);
+	}
+
 }
