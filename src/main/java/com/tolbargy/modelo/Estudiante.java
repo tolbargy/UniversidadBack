@@ -23,7 +23,7 @@ public class Estudiante {
 	private int id;
 
 	@Column(name = "numero_identificacion", nullable = false, length = 30, unique = true)
-	private String numero_identificacion;
+	private String numeroIdentificacion;
 
 	@Column(name = "nombre", nullable = false, length = 50)
 	private String nombre;
