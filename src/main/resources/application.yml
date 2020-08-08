@@ -8,3 +8,5 @@ spring:
     url: jdbc:mysql://localhost/universidad?createDatabaseIfNotExist=true
     username : root
     password: tolbar12345
+server:
+  port: 8282
