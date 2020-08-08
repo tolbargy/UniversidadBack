@@ -1,4 +1,4 @@
-package com.tolbargy.UniversidadBack;
+package com.tolbargy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
