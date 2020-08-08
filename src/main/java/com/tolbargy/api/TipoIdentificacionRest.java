@@ -17,7 +17,7 @@ public class TipoIdentificacionRest {
 	@Autowired
 	private ITipoIdentificacionService service;
 
-	@GetMapping("/listarTodos")
+	@GetMapping("")
 	public List<TipoIdentificacion> listarTodos() {
 		return service.listarTodos();
 	}

@@ -17,7 +17,7 @@ public class TipoSangreRest {
 	@Autowired
 	private ITipoSangreService service;
 
-	@GetMapping("/listarTodos")
+	@GetMapping("")
 	public List<TipoSangre> listarTodos() {
 		return service.listarTodos();
 	}
